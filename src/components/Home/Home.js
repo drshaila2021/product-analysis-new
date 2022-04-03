@@ -23,7 +23,7 @@ const Home = () => {
           <img src={picture} alt="" srcset="" />
          </div>
            <div className='reviews'>
-                <h1>Reviews.......</h1>
+                <h1>Reviews ({reviews.slice(0,3).length}) </h1>
            <div className="review-container">
          {reviews.slice(0,3).map(review=> <div>
             <h3>name:{review.name}</h3>
