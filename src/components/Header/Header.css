@@ -1,0 +1,10 @@
+.header a{
+    text-decoration: none;
+    margin-right:45px;
+
+}
+.header{
+    background-color: azure;
+    height: 50px;
+    padding-top: 20px;
+}

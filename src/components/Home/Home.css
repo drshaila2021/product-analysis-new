@@ -1,0 +1,26 @@
+.home img{
+    width: 430px;
+    height: 480px;
+    margin-top: 50px;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.review-container{
+    margin: 30px;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+
+}
+.review-container div{
+    border: 2px solid sandybrown;
+    border-radius: 5px;
+}
+.review-btn{
+  
+margin-bottom: 50px;
+
+}
