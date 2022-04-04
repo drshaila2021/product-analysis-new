@@ -5,14 +5,15 @@
     margin-right: 80px;
 }
 .home{
-    display: flex;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns:3fr 2fr;
+
     align-items: center;
     justify-content:space-between;
     margin-bottom: 80px;
 }
-.home h1{
-    margin-left: 80px;
-}
+
 .review-container{
     margin: 30px;
 display: grid;
