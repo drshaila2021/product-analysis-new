@@ -43,7 +43,7 @@ const Home = () => {
         </h1>
         <div className="review-container">
           {reviews.slice(0, 3).map((review) => (
-            <Review review={review}></Review>
+            <Review review={review} key={review.id}></Review>
           ))}
         </div>
 
