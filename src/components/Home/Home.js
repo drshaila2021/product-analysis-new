@@ -1,50 +1,58 @@
-// import React, { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import useReview from '../../Hooks/useReview';
-import picture from '../../suite.jpg';
-import Review from '../Review/Review';
-// import Reviews from '../Reviews/Reviews';
-import './Home.css'
+import { useNavigate } from "react-router-dom";
+import useReview from "../../Hooks/useReviews";
+import Review from "../Review/Review";
+import "./Home.css";
 
+//home component
 const Home = () => {
-    const[reviews,setReviews]=useReview([]);
-    const navigate=useNavigate();
-    const handleForReview=()=>{
-       navigate('/reviews')
-    }
+  // custom hook
+  const [reviews, setReviews] = useReview();
 
-    return (
+  // navigate all review
+  const navigate = useNavigate();
+
+  const handleForReview = () => {
+    navigate("/reviews");
+  };
+
+  return (
+    <div>
+      {/* home page - description */}
+      <div className="home">
         <div>
-        
-        <div className="home"> 
-       <div>
-       <h1>Choose The Best....<br>
-         </br>
-         Stay Elegance!!!!
+          <h1>
+            Choose The Best{" "}
+            <span id="name">
+              ...FASHION HOUSE <i> Suit</i>...
+            </span>
+            <br />
+            Stay Elegant !!!
           </h1>
-          <p>Live your own life with joy. Choose your own style. Look forword. Stay confident and colorfull.....</p>
-       </div>
-          <img src={picture} alt="" srcset="" />
-         </div>
-           <div className='reviews'>
-                <h1>Reviews ({reviews.slice(0,3).length}) </h1>
-           <div className="review-container">
-         
-            {
-              reviews.slice(0,3).map(review=><Review 
-              review={review}
-              ></Review>)
-            }
-            </div>
-            <div className='review-btn'>
-                <button  onClick={handleForReview}>CHECK ALL REVIEWS</button>
-            </div>
-       </div>
-           
-       
-
+          <p>
+            Live your own life with joy. Choose your own style. Look forword.
+            Stay confident and colorful. Select our fashion suit products and
+            stay elegent.{" "}
+          </p>
         </div>
-        );
-}
+        <img src={process.env.PUBLIC_URL + "/suite.png"} alt="" />
+      </div>
+      {/* home page - reviews */}
+      <div className="reviews">
+        <h1>
+          <span id="name">Top Reviews ({reviews.slice(0, 3).length})</span>
+        </h1>
+        <div className="review-container">
+          {reviews.slice(0, 3).map((review) => (
+            <Review review={review}></Review>
+          ))}
+        </div>
+
+        <button className="btn-all-reviews" onClick={handleForReview}>
+          See All Reviews
+        </button>
+      </div>
+    </div>
+  );
+};
 
 export default Home;

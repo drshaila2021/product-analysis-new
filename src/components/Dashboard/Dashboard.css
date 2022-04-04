@@ -1,8 +1,9 @@
 .dashboard {
-    display: flex;
-  }
-  
-  .dashboard-chart {
-    margin: 10px;
-    padding: 10px;
-  }
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.dashboard-chart {
+  padding: 10px;
+}

@@ -1,39 +1,38 @@
-
 [
-    {
-      "id": "6249eb601badbe9cdfc51a12",
-      "name": "Briana Gray",
-      "post": "This is so beutifull. I like it so much. This is comfortable and looks elegance. I highly recommand this product.",
-      "rating": 5
-    },
-    {
-      "id": "6249eb60e91f66d67f63e3be",
-      "name": "Crosby Spears",
-      "post": "This is excelent. Good quality. I recommand this.",
-      "rating": 4
-    },
-    {
-      "id": "6249eb603373e3293b276db2",
-      "name": "York Weeks",
-      "post": "Good purchase so far. Nice...",
-      "rating": 3
-    },
-    {
-      "id": "6249eb6050b95204e61489bf",
-      "name": "Tonia Huber",
-      "post": "The material is very good. Satisfied with my purchase and one of my best purchase.",
-      "rating": 5
-    },
-    {
-      "id": "6249eb604bfce279e3d42532",
-      "name": "Ladonna Baxter",
-      "post": "Does not fit me. Purchase wrong size.",
-      "rating": 1
-    },
-    {
-      "id": "6249eb600e515b09b2923b9a",
-      "name": "Hilary Simpson",
-      "post": "Packaging was not good. I do not like it.",
-      "rating": 2
-    }
-  ]
+  {
+    "id": "6249eb601badbe9cdfc51a12",
+    "name": "Briana Gray",
+    "post": "This is so beutifull. I like it so much. This is comfortable and looks elegance. I highly recommand this product.",
+    "rating": 5
+  },
+  {
+    "id": "6249eb60e91f66d67f63e3be",
+    "name": "Crosby Spears",
+    "post": "This is excelent. Good quality. I recommand this.",
+    "rating": 5
+  },
+  {
+    "id": "6249eb603373e3293b276db2",
+    "name": "York Weeks",
+    "post": "Good purchase so far. Nice...",
+    "rating": 4
+  },
+  {
+    "id": "6249eb6050b95204e61489bf",
+    "name": "Tonia Huber",
+    "post": "The material is very good. Satisfied with my purchase and one of my best purchase.",
+    "rating": 5
+  },
+  {
+    "id": "6249eb604bfce279e3d42532",
+    "name": "Ladonna Baxter",
+    "post": "Does not fit me. Purchase wrong size.",
+    "rating": 3
+  },
+  {
+    "id": "6249eb600e515b09b2923b9a",
+    "name": "Hilary Simpson",
+    "post": "Packaging was not good. I do not like it.",
+    "rating": 2
+  }
+]
