@@ -2,11 +2,16 @@
     width: 430px;
     height: 480px;
     margin-top: 50px;
+    margin-right: 80px;
 }
 .home{
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content:space-between;
+    margin-bottom: 80px;
+}
+.home h1{
+    margin-left: 80px;
 }
 .review-container{
     margin: 30px;
