@@ -2,7 +2,7 @@
 
 ## Site Link
 
-[Fashion House](https://github.com/programming-hero-web-course-4/product-analysis-website-drshaila2021.git).
+[Fashion House](https://ms9-fashion-house.netlify.app/).
 
 ## About the project
 
